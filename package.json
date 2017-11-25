@@ -1,0 +1,50 @@
+{
+  "name": "iobroker.iobrokeraccesscontrol",
+  "version": "0.0.1",
+  "description": "Access Control - Password or RFID",
+  "author": {
+    "name": "Mitchell R",
+    "email": "development@mrincworld.com"
+  },
+  "contributors": [
+    {
+      "name": "Mitchell R",
+      "email": "development@mrincworld.com"
+    }
+  ],
+  "homepage": "https://github.com/mrinc/ioBrokerAccessControl",
+  "license": "MIT",
+  "keywords": [
+    "ioBroker",
+    "iobrokeraccesscontrol",
+    "Smart Home",
+    "home automation",
+    "mrHAC",
+    "RFID",
+    "MQTT",
+    "PIN",
+    "Access Control"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mrinc/ioBrokerAccessControl"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-replace": "^1.0.1",
+    "grunt-contrib-jshint": "^1.1.0",
+    "grunt-jscs": "^3.0.1",
+    "grunt-http": "^2.2.0",
+    "mocha": "^3.5.3",
+    "chai": "^4.1.2"
+  },
+  "main": "main.js",
+  "scripts": {
+    "test": "node node_modules/mocha/bin/mocha"
+  },
+  "bugs": {
+    "url": "https://github.com/mrinc/ioBrokerAccessControl/issues"
+  },
+  "readmeFilename": "README.md"
+}

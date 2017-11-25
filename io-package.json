@@ -1,0 +1,35 @@
+{
+    "common": {
+        "name": "iobrokeraccesscontrol",
+        "version": "0.0.1",
+        "news": {
+            "0.0.1": {
+                "en": "initial adapter"
+            }
+        },
+        "title": "Access Control - Password or RFID",
+        "desc": {
+            "en": "Access Control Adapter"
+        },
+        "authors": [
+            "Mitchell R <development@mrincworld.com>"
+        ],
+        "platform": "Javascript/Node.js",
+        "mode": "daemon",
+        "icon": "Icon.png",
+        "enabled": true,
+        "extIcon": "https://raw.githubusercontent.com/ioBroker/ioBroker.iobrokeraccesscontrol/master/admin/Icon.png",
+        "keywords": ["iobrokeraccesscontrol", "vis", "GUI", "graphical", "scada"],
+        "readme": "https://github.com/ioBroker/ioBroker.iobrokeraccesscontrol/blob/master/README.md",
+        "loglevel": "info",
+        "type": "Security",
+        "restartAdapters": ["vis"]
+    },
+    "native": {
+        "test1": true,
+        "test2": 42
+    },
+    "objects": [
+
+    ]
+}
