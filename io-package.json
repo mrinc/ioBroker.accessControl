@@ -18,9 +18,9 @@
         "mode": "daemon",
         "icon": "Icon.png",
         "enabled": true,
-        "extIcon": "https://raw.githubusercontent.com/ioBroker/ioBroker.iobrokeraccesscontrol/master/admin/Icon.png",
+        "extIcon": "https://raw.githubusercontent.com/mrinc/ioBrokerAccessControl/master/admin/Icon.png",
         "keywords": ["iobrokeraccesscontrol", "vis", "GUI", "graphical", "scada"],
-        "readme": "https://github.com/ioBroker/ioBroker.iobrokeraccesscontrol/blob/master/README.md",
+        "readme": "https://github.com/mrinc/ioBrokerAccessControl/blob/master/README.md",
         "loglevel": "info",
         "type": "Security",
         "restartAdapters": ["vis"]
