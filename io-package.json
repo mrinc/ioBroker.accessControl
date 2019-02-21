@@ -19,10 +19,11 @@
         "icon": "Icon.png",
         "enabled": true,
         "extIcon": "https://raw.githubusercontent.com/mrinc/ioBrokerAccessControl/master/admin/Icon.png",
-        "keywords": ["iobrokeraccesscontrol", "vis", "GUI", "graphical", "scada"],
+        "keywords": [ "ioBroker", "iobrokeraccesscontrol", "Smart Home", "home automation", "mrHAC", "RFID", "MQTT", "PIN", "Access Control" ],
+        "license": "MIT",
         "readme": "https://github.com/mrinc/ioBrokerAccessControl/blob/master/README.md",
         "loglevel": "info",
-        "type": "Security",
+        "type": "security",
         "restartAdapters": ["vis"]
     },
     "native": {

@@ -1,7 +1,7 @@
 /*
     ioBroker.iobrokeraccesscontrol Widget-Set
 
-    version: "0.1.0"
+    version: "0.0.1"
 
     Copyright 10.2015-2016 Mitchell R<development@mrincworld.com>
 
@@ -30,7 +30,7 @@ $.extend(true, systemDictionary, {
 
 // this code can be placed directly in iobrokeraccesscontrol.html
 vis.binds.iobrokeraccesscontrol = {
-    version: "0.1.0",
+    version: "0.0.1",
     showVersion: function () {
         if (vis.binds.iobrokeraccesscontrol.version) {
             console.log('Version iobrokeraccesscontrol: ' + vis.binds.iobrokeraccesscontrol.version);
